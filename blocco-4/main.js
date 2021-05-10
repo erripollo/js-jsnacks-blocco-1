@@ -30,7 +30,7 @@ var TriangoloRettangolo = {
     altezza : 15,
 }
 
-var area = TriangoloRettangolo.base * TriangoloRettangolo.altezza;
+var area = (TriangoloRettangolo.base * TriangoloRettangolo.altezza)/2;
 console.log(area);
 
 var ipotenusa = Math.sqrt(Math.pow(TriangoloRettangolo.base, 2) + Math.pow(TriangoloRettangolo.altezza, 2));
