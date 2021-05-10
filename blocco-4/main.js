@@ -9,3 +9,11 @@ var Palla = {
     nome : 'palla',
     peso : 10
 }
+
+/* 
+Blocco 4 - Snack 1B
+Attraverso un prompt dare la possibilità all’utente di modificare il peso della palla.
+*/
+
+Palla.peso = prompt('inserisci peso della palla')
+console.log(Palla);
