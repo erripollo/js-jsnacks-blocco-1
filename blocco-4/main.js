@@ -6,6 +6,6 @@ Peso = 10
 */
 
 var Palla = {
-    nome : palla,
+    nome : 'palla',
     peso : 10
 }
